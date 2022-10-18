@@ -31,8 +31,8 @@
 - [ ] Shannon-Fano
 
 ## VI Sorting Algorithm 📊
-- [ ] Insertsort
-- [ ] Bubblesort
+- [x] Insertsort
+- [x] Bubblesort
 - [ ] Quicksort
 - [ ] Heapsort
 - [ ] Mergesort
