@@ -79,7 +79,7 @@ cl.insert('e', 3)  # [a, b, c, e]
 cl.insert('d', 3)  # [a, b, c, d, e]
 cl.insert('3', 1)  # [a, 3 , b, c, d, e]
 cl.insert('0', 0)  # [0, a, 3 , b, c, d, e]
-cl.insert('7', 7)  # [0, a, 3 , b, c, d, e, 6]
+cl.insert('7', 7)  # [0, a, 3 , b, c, d, e, 7]
 print(cl.elemAt(0))  # 0
 print(cl.elemAt(1))  # a
 print(cl.elemAt(2))  # 3
