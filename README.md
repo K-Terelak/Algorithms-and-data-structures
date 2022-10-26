@@ -33,6 +33,6 @@
 ## VI Sorting Algorithm 📊
 - [x] Insertsort
 - [x] Bubblesort
-- [ ] Quicksort
+- [x] Quicksort
 - [ ] Heapsort
 - [ ] Mergesort
