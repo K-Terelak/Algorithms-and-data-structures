@@ -12,7 +12,7 @@
 - [x] Linked List
 - [x] Doubly Linked List
 - [x] Circular Linked List
-- [ ] Sentinel Linked List
+- [x] Sentinel Linked List
 
 ## III Graph Algorithm 📈
 - [ ] Prim's algorithm
