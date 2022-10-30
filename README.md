@@ -15,7 +15,7 @@
 - [x] Sentinel Linked List
 
 ## III Graph Algorithm 📈
-- [ ] Prim's algorithm
+- [x] Prim's algorithm
 - [ ] Dijkstry
 - [ ] A*
 - [ ] Floyd-Warshall algorithm
