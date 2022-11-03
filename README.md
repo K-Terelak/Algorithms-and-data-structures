@@ -16,7 +16,7 @@
 
 ## III Graph Algorithm 📈
 - [x] Prim's algorithm
-- [ ] Dijkstry
+- [x] Dijkstry
 - [ ] A*
 - [ ] Floyd-Warshall algorithm
 
