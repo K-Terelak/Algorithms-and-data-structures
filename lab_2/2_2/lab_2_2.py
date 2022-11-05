@@ -3,7 +3,7 @@ class PriorityQueue:
     len = 0
 
     # add element to queue with priority
-    def queue(self, obj, priority):
+    def enqueue(self, obj, priority):
         i = 0
         try:
             while True:
@@ -19,8 +19,10 @@ class PriorityQueue:
     # remove element from queue
     def dequeue(self):
         try:
+            popped = self.arr[0]
+            self.arr = self.arr[1:]
             self.len -= 1
-            return self.arr.pop(0)
+            return popped
         except IndexError:
             return IndexError("IndexError dequeue")
 
@@ -33,11 +35,10 @@ class PriorityQueue:
 
 
 test = PriorityQueue()
-test.queue(3, 3)
-test.queue(4, 1)
-test.queue(5, 2)
-test.queue(1, 4)
-test.queue(7, 3)
-print(test.arr)
+test.enqueue(3, 3)
+test.enqueue(4, 1)
+test.enqueue(5, 2)
+test.enqueue(1, 4)
+test.enqueue(7, 3)
 while test.len > 0:
     print(test.dequeue())
