@@ -3,7 +3,7 @@ class Queue:
     len = 0
 
     # add element to queue
-    def queue(self, obj):
+    def enqueue(self, obj):
         self.arr += [obj]
         self.len += 1
         return
@@ -25,9 +25,9 @@ class Queue:
 
 
 q = Queue()
-q.queue(2)
-q.queue(1)
-q.queue(3)
-q.queue(7)
+q.enqueue(2)
+q.enqueue(1)
+q.enqueue(3)
+q.enqueue(7)
 print("dequeue:" + str(q.dequeue()))
 print("index[0]: " + str(q.index(0)))
