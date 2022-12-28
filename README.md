@@ -17,8 +17,8 @@
 ## III Graph Algorithm 📈
 - [x] Prim's algorithm
 - [x] Dijkstry
-- [ ] A*
-- [ ] Floyd-Warshall algorithm
+- [x] A*
+- [x] Floyd-Warshall algorithm
 
 ### IV Pattern Searching Algorithm ⛓
 - [ ] Naive
