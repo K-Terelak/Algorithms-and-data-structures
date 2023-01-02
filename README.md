@@ -21,9 +21,9 @@
 - [x] Floyd-Warshall algorithm
 
 ### IV Pattern Searching Algorithm ⛓
-- [ ] Naive
-- [ ] Boyer-Moore
-- [ ] Karp-Rabin
+- [x] Naive
+- [x] Boyer-Moore
+- [x] Karp-Rabin
 
 ## V Coding Algorithm ⚙️
 - [ ] Cesar Cipher
