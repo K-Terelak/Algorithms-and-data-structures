@@ -26,8 +26,8 @@
 - [x] Karp-Rabin
 
 ## V Coding Algorithm ⚙️
-- [ ] Cesar Cipher
-- [ ] Huffman coding
+- [x] Cesar Cipher
+- [x] Huffman coding
 - [ ] Shannon-Fano
 
 ## VI Sorting Algorithm 📊
