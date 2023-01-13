@@ -28,7 +28,7 @@
 ## V Coding Algorithm ⚙️
 - [x] Cesar Cipher
 - [x] Huffman coding
-- [ ] Shannon-Fano
+- [x] Shannon-Fano
 
 ## VI Sorting Algorithm 📊
 - [x] Insertsort
