@@ -1,11 +1,22 @@
-def bubble_sort(arr):
-    n = len(arr)
-    for i in range(n - 1):
-        for j in range(0, n - i - 1):
-            if arr[j] > arr[j + 1]:
-                arr[j], arr[j + 1] = arr[j + 1], arr[j]
+import lab_6.FileHandler as FH
+import time
 
 
-arr = [2, 1, 3, 7, 2, 1, 1, 5]
-bubble_sort(arr)
-print(arr)
+def bubbleSort(dane):
+    for x in range(len(dane) - 1):
+        for y in range(len(dane) - x - 1):
+            if dane[y] > dane[y + 1]:
+                dane[y], dane[y + 1] = dane[y + 1], dane[y]
+
+    return dane
+
+
+zbior = "duzy"
+
+start = time.time()
+wynik = bubbleSort(FH.pobieranieDanych(zbior))
+stop = time.time()
+
+print(f"Czas wykonywania: {stop - start}s")
+
+FH.zapisywanieDanych(f"wynikBubble{zbior.capitalize()}", wynik)

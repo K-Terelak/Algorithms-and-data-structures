@@ -1,18 +1,25 @@
-def insertion_sort(arr):
-    for i in range(1, len(arr)):
+import lab_6.FileHandler as FH
+import time
 
-        key = arr[i]
-        j = i - 1
-        while j >= 0 and key < arr[j]:
-            arr[j + 1] = arr[j]
-            j -= 1
-        arr[j + 1] = key
+def insertionSort(dane):
+    for x in range(1, len(dane)):
+        znak = dane[x]
+        y = x - 1
+        while y >= 0 and znak < dane[y]:
+            dane[y + 1] = dane[y]
+            y -= 1
+        dane[y + 1] = znak
+
+    return dane
 
 
-arr = [12, 11, 13, 5, 6]
-insertion_sort(arr)
-lst = []
-print("Sorted array is : ")
-for i in range(len(arr)):
-    lst.append(arr[i])
-print(lst)
+zbior = "duzy"
+
+start = time.time()
+wynik = insertionSort(FH.pobieranieDanych(zbior))
+stop = time.time()
+
+print(f"Czas wykonywania: {stop-start}s")
+
+
+FH.zapisywanieDanych(f"wynikInsert{zbior.capitalize()}", wynik)
