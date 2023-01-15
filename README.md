@@ -34,5 +34,5 @@
 - [x] Insertsort
 - [x] Bubblesort
 - [x] Quicksort
-- [ ] Heapsort
-- [ ] Mergesort
+- [x] Heapsort
+- [x] Mergesort
